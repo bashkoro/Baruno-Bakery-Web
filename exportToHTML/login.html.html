@@ -1,0 +1,128 @@
+<html>
+<head>
+<title>login.html</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #d5b778;}
+.s1 { color: #bcbec4;}
+.s2 { color: #bababa;}
+.s3 { color: #6aab73;}
+.s4 { color: #7a7e85;}
+.s5 { color: #56a8f5;}
+</style>
+</head>
+<body bgcolor="#1e1f22">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+login.html</font>
+</center></td></tr></table>
+<pre><span class="s0">&lt;!DOCTYPE </span><span class="s2">html</span><span class="s0">&gt;</span>
+<span class="s0">&lt;html </span><span class="s2">lang</span><span class="s3">=&quot;en&quot;</span><span class="s0">&gt;</span>
+  <span class="s0">&lt;head&gt;</span>
+    <span class="s0">&lt;meta </span><span class="s2">charset</span><span class="s3">=&quot;UTF-8&quot; </span><span class="s0">/&gt;</span>
+    <span class="s0">&lt;meta </span><span class="s2">http-equiv</span><span class="s3">=&quot;X-UA-Compatible&quot; </span><span class="s2">content</span><span class="s3">=&quot;IE=edge&quot; </span><span class="s0">/&gt;</span>
+    <span class="s0">&lt;meta</span>
+      <span class="s2">name</span><span class="s3">=&quot;description&quot;</span>
+      <span class="s2">content</span><span class="s3">=&quot;Baruno Bakery is a bakery company that selling healty bread and cake. Although it's healty the quality and taste is still our top priority. Baruno Bakery already make a collaboration with other big company such as starbucks, breadtalk, etc&quot;</span>
+    <span class="s0">/&gt;</span>
+    <span class="s0">&lt;meta </span><span class="s2">name</span><span class="s3">=&quot;viewport&quot; </span><span class="s2">content</span><span class="s3">=&quot;width=device-width, initial-scale=1.0&quot; </span><span class="s0">/&gt;</span>
+
+    <span class="s4">&lt;!-- Browser Tab logo --&gt;</span>
+
+    <span class="s0">&lt;link </span><span class="s2">rel</span><span class="s3">=&quot;icon&quot; </span><span class="s2">href</span><span class="s3">=&quot;img/logo-baruno.png&quot; </span><span class="s0">/&gt;</span>
+    <span class="s0">&lt;link </span><span class="s2">rel</span><span class="s3">=&quot;apple-touch-icon&quot; </span><span class="s2">href</span><span class="s3">=&quot;img/logo-baruno-apple.png&quot; </span><span class="s0">/&gt;</span>
+
+    <span class="s4">&lt;!-- Fonts (Playfair display, Roboto) --&gt;</span>
+
+    <span class="s0">&lt;link </span><span class="s2">rel</span><span class="s3">=&quot;preconnect&quot; </span><span class="s2">href</span><span class="s3">=&quot;https://fonts.googleapis.com&quot; </span><span class="s0">/&gt;</span>
+    <span class="s0">&lt;link </span><span class="s2">rel</span><span class="s3">=&quot;preconnect&quot; </span><span class="s2">href</span><span class="s3">=&quot;https://fonts.gstatic.com&quot; </span><span class="s0">/&gt;</span>
+    <span class="s0">&lt;link</span>
+      <span class="s2">href</span><span class="s3">=&quot;https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&amp;display=swap&quot;</span>
+      <span class="s2">rel</span><span class="s3">=&quot;stylesheet&quot;</span>
+    <span class="s0">/&gt;</span>
+    <span class="s0">&lt;link</span>
+      <span class="s2">href</span><span class="s3">=&quot;https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&amp;display=swap&quot;</span>
+      <span class="s2">rel</span><span class="s3">=&quot;stylesheet&quot;</span>
+    <span class="s0">/&gt;</span>
+
+    <span class="s4">&lt;!-- font awesome --&gt;</span>
+    <span class="s0">&lt;link</span>
+      <span class="s2">rel</span><span class="s3">=&quot;stylesheet&quot;</span>
+      <span class="s2">href</span><span class="s3">=&quot;https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css&quot;</span>
+    <span class="s0">/&gt;</span>
+
+    <span class="s0">&lt;link </span><span class="s2">rel</span><span class="s3">=&quot;stylesheet&quot; </span><span class="s2">type</span><span class="s3">=&quot;text/css&quot; </span><span class="s2">href</span><span class="s3">=&quot;css/login.css&quot; </span><span class="s0">/&gt;</span>
+    <span class="s0">&lt;link </span><span class="s2">rel</span><span class="s3">=&quot;stylesheet&quot; </span><span class="s2">href</span><span class="s3">=&quot;css/general.css&quot; </span><span class="s0">/&gt;</span>
+    <span class="s0">&lt;link </span><span class="s2">rel</span><span class="s3">=&quot;stylesheet&quot; </span><span class="s2">href</span><span class="s3">=&quot;css/style.css&quot; </span><span class="s0">/&gt;</span>
+    <span class="s0">&lt;link </span><span class="s2">rel</span><span class="s3">=&quot;stylesheet&quot; </span><span class="s2">href</span><span class="s3">=&quot;css/queries.css&quot; </span><span class="s0">/&gt;</span>
+
+    <span class="s4">&lt;!-- Icon dari Ion Icons --&gt;</span>
+
+    <span class="s0">&lt;script</span>
+      <span class="s2">type</span><span class="s3">=&quot;module&quot;</span>
+      <span class="s2">src</span><span class="s3">=&quot;https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js&quot;</span>
+    <span class="s0">&gt;&lt;/script&gt;</span>
+    <span class="s0">&lt;script</span>
+      <span class="s2">nomodule</span><span class="s3">=&quot;&quot;</span>
+      <span class="s2">src</span><span class="s3">=&quot;https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js&quot;</span>
+    <span class="s0">&gt;&lt;/script&gt;</span>
+
+    <span class="s0">&lt;title&gt;</span><span class="s1">Baruno Bakery - Login</span><span class="s0">&lt;/title&gt;</span>
+  <span class="s0">&lt;/head&gt;</span>
+  <span class="s0">&lt;body&gt;</span>
+    <span class="s0">&lt;div&gt;</span>
+      <span class="s0">&lt;a </span><span class="s2">href</span><span class="s3">=&quot;index.html&quot; </span><span class="s2">class</span><span class="s3">=&quot;logo-link logo-link-2&quot;</span><span class="s0">&gt;</span>
+        <span class="s0">&lt;p </span><span class="s2">class</span><span class="s3">=&quot;nav-logo&quot;</span><span class="s0">&gt;&lt;span&gt;</span><span class="s1">BB</span><span class="s0">&lt;/span&gt;</span><span class="s1">akery</span><span class="s0">&lt;/p&gt;</span>
+      <span class="s0">&lt;/a&gt;</span>
+    <span class="s0">&lt;/div&gt;</span>
+
+    <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;containerLogin&quot;</span><span class="s0">&gt;</span>
+      <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;form-box&quot;</span><span class="s0">&gt;</span>
+        <span class="s0">&lt;h1 </span><span class="s2">id</span><span class="s3">=&quot;headingForm&quot;</span><span class="s0">&gt;</span><span class="s1">Login</span><span class="s0">&lt;/h1&gt;</span>
+        <span class="s0">&lt;form </span><span class="s2">action</span><span class="s3">=&quot;index.html&quot; </span><span class="s2">id</span><span class="s3">=&quot;login-form&quot; </span><span class="s2">name</span><span class="s3">=&quot;login-form&quot; </span><span class="s2">novalidate</span><span class="s0">&gt;</span>
+          <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;input-group input-login&quot;</span><span class="s0">&gt;</span>
+            <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;input-field&quot;</span><span class="s0">&gt;</span>
+              <span class="s0">&lt;ion-icon </span><span class="s2">name</span><span class="s3">=&quot;mail-outline&quot;</span><span class="s0">&gt;&lt;/ion-icon&gt;</span>
+              <span class="s0">&lt;input</span>
+                <span class="s2">type</span><span class="s3">=&quot;email&quot;</span>
+                <span class="s2">placeholder</span><span class="s3">=&quot;Email&quot;</span>
+                <span class="s2">name</span><span class="s3">=&quot;email-login&quot;</span>
+                <span class="s2">id</span><span class="s3">=&quot;email-login&quot;</span>
+                <span class="s2">required</span>
+              <span class="s0">/&gt;</span>
+              <span class="s0">&lt;span </span><span class="s2">id</span><span class="s3">=&quot;email-login-error&quot; </span><span class="s2">class</span><span class="s3">=&quot;error&quot;</span><span class="s0">&gt;&lt;/span&gt;</span>
+            <span class="s0">&lt;/div&gt;</span>
+            <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;input-field&quot;</span><span class="s0">&gt;</span>
+              <span class="s0">&lt;ion-icon </span><span class="s2">name</span><span class="s3">=&quot;lock-closed-outline&quot;</span><span class="s0">&gt;&lt;/ion-icon&gt;</span>
+              <span class="s0">&lt;input</span>
+                <span class="s2">type</span><span class="s3">=&quot;password&quot;</span>
+                <span class="s2">placeholder</span><span class="s3">=&quot;Password&quot;</span>
+                <span class="s2">id</span><span class="s3">=&quot;password-login&quot;</span>
+                <span class="s2">name</span><span class="s3">=&quot;password-login&quot;</span>
+                <span class="s2">required</span>
+              <span class="s0">/&gt;</span>
+              <span class="s0">&lt;span </span><span class="s2">id</span><span class="s3">=&quot;password-login-error&quot; </span><span class="s2">class</span><span class="s3">=&quot;error&quot;</span><span class="s0">&gt;&lt;/span&gt;</span>
+            <span class="s0">&lt;/div&gt;</span>
+          <span class="s0">&lt;/div&gt;</span>
+          <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;btn-field2&quot;</span><span class="s0">&gt;</span>
+            <span class="s0">&lt;button </span><span class="s2">type</span><span class="s3">=&quot;submit&quot; </span><span class="s2">id</span><span class="s3">=&quot;ConfirmBtn&quot;</span><span class="s0">&gt;</span><span class="s1">LOGIN</span><span class="s0">&lt;/button&gt;</span>
+          <span class="s0">&lt;/div&gt;</span>
+
+          <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;footer-text&quot;</span><span class="s0">&gt;</span>
+            <span class="s0">&lt;p&gt;</span>
+              <span class="s1">Don't have an account?</span>
+              <span class="s0">&lt;span&gt;&lt;a </span><span class="s2">href</span><span class="s3">=&quot;signup.html&quot;</span><span class="s0">&gt;</span><span class="s1">Sign Up</span><span class="s0">&lt;/a&gt;&lt;/span&gt;</span>
+            <span class="s0">&lt;/p&gt;</span>
+            <span class="s0">&lt;a </span><span class="s2">href</span><span class="s3">=&quot;index.html&quot; </span><span class="s2">class</span><span class="s3">=&quot;back-to-home&quot;</span><span class="s0">&gt;</span><span class="s5">&amp;larr;</span><span class="s1">Back to home</span><span class="s0">&lt;/a&gt;</span>
+          <span class="s0">&lt;/div&gt;</span>
+        <span class="s0">&lt;/form&gt;</span>
+      <span class="s0">&lt;/div&gt;</span>
+    <span class="s0">&lt;/div&gt;</span>
+
+    <span class="s0">&lt;script </span><span class="s2">src</span><span class="s3">=&quot;js/login.js&quot;</span><span class="s0">&gt;&lt;/script&gt;</span>
+  <span class="s0">&lt;/body&gt;</span>
+<span class="s0">&lt;/html&gt;</span>
+</pre>
+</body>
+</html>
